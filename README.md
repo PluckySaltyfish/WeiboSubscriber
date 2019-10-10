@@ -11,10 +11,7 @@
 
 **WeiboSubscriber**可以实现每天定时检索你的关注人的新动态，并把他/她的动态发到你的邮箱。支持多种微博内容（图片、文字、长微博、转发微博等，视频、音频附链接）。
 
-<center class="half">
-    <img src = "ss/outline.jpg" width=200> <img src = "ss/pic.jpg" width=200> <img src = "ss/long.jpg" width=200>
-    <p> 邮件列表、带图微博、长微博</p>
-</center>
+![img](ss/ss1.png)
 
 <br>
 
