@@ -12,7 +12,7 @@
 **WeiboSubscriber**可以实现每天定时检索你的关注人的新动态，并把他/她的动态发到你的邮箱。支持多种微博内容（图片、文字、长微博、转发微博等，视频、音频附链接）。
 
 <center class="half">
-    <img src = "ss/outline.jpg" width=30%> <img src = "ss/pic.jpg" width=30%> <img src = "ss/long.jpg" width=30%>
+    <img src = "ss/outline.jpg" width=200> <img src = "ss/pic.jpg" width=200> <img src = "ss/long.jpg" width=200>
     <p> 邮件列表、带图微博、长微博</p>
 </center>
 
@@ -52,7 +52,7 @@ send_min = 30
 2. 右键检查元素，在`Network`选项卡下，选取`XHR`，刷新页面。
 3. 可以在列表的最下方的条目获取到`uid`和`containerid`。
 
-![img](ss/get.png){: .center-image }
+![img](ss/get.png)
 
 <br>
 
