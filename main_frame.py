@@ -4,7 +4,7 @@ import config
 
 def BigBrotherIsWatchingYou():
     scheduler = BlockingScheduler()
-    scheduler.add_job(get_weibo.send,'cron', hour=config.hour, minute=config.min)
+    scheduler.add_job(get_weibo.send,'cron', hour=config.send_hour, minute=config.send_min)
 
     try:
         scheduler.start()

@@ -34,9 +34,10 @@ class Card():
         self.isRetweet = 0
         self.video = 0
         if 'page_info' in json.keys():
-            self.video = 1
-            self.video_url = json['page_info']['media_info']['mp4_sd_url']
-            self.video_name = json['page_info']['media_info']['name']
+            if 'media_info' in json['page_info'].keys():
+                self.video = 1
+                self.video_url = json['page_info']['media_info']['mp4_sd_url']
+                self.video_name = json['page_info']['media_info']['name']
         if 'pics' in json.keys():
             self.pics = json['pics']
         if 'retweeted_status' in json.keys():
