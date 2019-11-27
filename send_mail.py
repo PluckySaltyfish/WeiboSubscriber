@@ -48,5 +48,4 @@ class MailSender():
         return ret
 
 if __name__ == '__main__':
-    ms = MailSender('1828151761@qq.com','1828151761@qq.com','vjfhghlcxenkcbaj','我知道你为什么傲慢<br />你到了坡上<br />心情不错<br />有些喘<br />','李诞','太阳系','李诞的微博',['xiaolin.png'])
-    ms.send()
+    pass
